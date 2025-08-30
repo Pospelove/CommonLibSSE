@@ -32,7 +32,7 @@ namespace RE
 #ifndef SKYRIM_SUPPORT_AE
 		~BaseExtraList();  // 00
 #else
-		virtual ~BaseExtraList();  // 00
+		virtual ~BaseExtraList() = default;  // 00
 #endif
 
 		// members
